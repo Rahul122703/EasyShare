@@ -1,0 +1,53 @@
+# ===========================
+# Node.js / React ignores
+# ===========================
+
+# dependencies
+/frontend/node_modules
+
+# build output
+/frontend/build
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.*
+
+
+# ===========================
+# Python / Django ignores
+# ===========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+/backend/venv/
+
+# Django stuff
+*.log
+db.sqlite3
+/media/  # Ignore uploaded media files (optional, only if not tracked)
+
+# Local settings
+*.env
+
+# ===========================
+# System ignores
+# ===========================
+
+# VSCode settings
+.vscode/
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini

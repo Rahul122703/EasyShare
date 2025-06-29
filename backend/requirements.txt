@@ -1,0 +1,9 @@
+# Django and REST framework
+Django>=4.0
+djangorestframework>=3.14.0
+
+# CORS support (for React frontend communication)
+django-cors-headers>=4.0.0
+
+# Optional: Use Pillow if you ever deal with image uploads
+Pillow>=9.0.0
